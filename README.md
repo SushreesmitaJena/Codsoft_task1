@@ -24,7 +24,7 @@ public class NumberGame {
             boolean guessedCorrectly = false;
 
             while (!guessedCorrectly && attempts < maxAttempts) {
-                // Prompt the user to enter their guess
+                
                 System.out.print("Round " + (attempts + 1) + ": Enter your guess (between " + min + " and " + max + "): ");
                 int userGuess = scanner.nextInt();
 
